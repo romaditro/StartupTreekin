@@ -15,7 +15,7 @@
 @import 'layout/header';
 @import 'layout/navigation';
 @import 'layout/sidebar';
-//@import 'layout/main-section';
+//@import 'layout/main';
 @import 'layout/navbar';
 @import 'layout/forms';
 @import 'layout/footer';
@@ -27,7 +27,3 @@
 @import 'components/dropdown';
 //@import 'components/inputs';
 @import 'components/pagination';
-h1 {
-    font-family: monospace;
-    color: peru;
-}
