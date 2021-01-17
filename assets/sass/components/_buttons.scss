@@ -1,0 +1,32 @@
+.primary-button {
+    background-color: $ball-blue;
+    padding: 0.5em;
+    color: $white;
+    -webkit-transition-property: background-color;
+    -o-transition-property: background-color;
+    transition-property: background-color;
+    -webkit-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+    &:hover {
+        background-color: $middle-blue;
+    }
+    &:focus {
+        background-color: $lavender-gray;
+    }
+    &--large {
+        width: 100%;
+        border: none;
+        outline: none;
+        margin-top: 1em;
+        padding: 1em 0;
+        cursor: pointer;
+    }
+}
+
+.login-button {
+    color: $raisin-black;
+}

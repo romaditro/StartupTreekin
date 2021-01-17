@@ -1,0 +1,16 @@
+.m-features {
+    padding: 8em 15% 0 15%;
+    &__title {
+        text-align: center;
+    }
+    &__image {
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    }
+    &__text {
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    }
+}

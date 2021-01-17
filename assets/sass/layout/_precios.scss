@@ -1,0 +1,33 @@
+.precios {
+    position: relative;
+    background-color: transparent;
+    padding-top: 5em;
+    &__title {
+        color: $white;
+        margin-top: 1em;
+    }
+    .row {
+        padding: 4em 15%;
+    }
+    &::before {
+        content: " ";
+        position: absolute;
+        top: -161px;
+        height: 1390px;
+        z-index: -1;
+        background-image: url("../images/bg-price.svg");
+        width: 100%;
+        background-size: cover;
+    }
+    &__title {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 791px) {
+    .precios {
+        &::before {
+            height: 1022px;
+        }
+    }
+}

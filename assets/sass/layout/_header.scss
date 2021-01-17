@@ -1,0 +1,47 @@
+.h-section {
+    margin: 3em 0;
+    padding-top: 8em;
+    position: relative;
+    background-color: transparent;
+    z-index: -1;
+    &__text {
+        width: 80%;
+        margin-left: 10%;
+    }
+    &__img {
+        background-image: url("../images/bg-hero.png");
+        width: 100%;
+        height: 520px;
+        background-size: cover;
+        background-position: top right;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .h-section {
+        &__text {
+            width: 500px;
+        }
+    }
+}
+
+@media screen and (min-width: 791px) {
+    .h-section {
+        &::before {
+            content: " ";
+            position: absolute;
+            height: 950px;
+            z-index: -1;
+            background-image: url("../images/bg-hero.svg");
+            width: 100%;
+            background-size: cover;
+            background-position: top right;
+        }
+        &__img {
+            background-image: none;
+            width: 0;
+            height: 0;
+        }
+    }
+}
